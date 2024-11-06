@@ -7,7 +7,9 @@ title: Akshay Akula
 
 ## About Me
 
-Computer Science graduate student at the University of Central Missouri, specializing in data engineering and full-stack development. With 1.5 years of experience as an Associate Software Engineer, I bring expertise in Java, Python, SQL, and web technologies.
+As a Data Engineer at PayPal, I build and maintain data pipelines, data lakes, and dashboards using Google Cloud Platform (GCP) and coordinate tasks among the team. I also design and implement star schema in Big Query and use g-cloud functions with Python to load data from Google Cloud Storage (GCS) buckets. I have experience in migrating on-prem Hadoop systems to GCP and using cloud Dataflow, Dataproc, and Bigtable for big data processing.
+
+I have a Master's degree in Computer Science from University of Central Missouri, where I learned the fundamentals of data science, machine learning, and artificial intelligence. Before joining PayPal, I worked as a Data Engineer at Marsh McLennan and Virtusa, where I designed and developed data architectures and ETL processes using AWS, Snowflake, Airflow, and PySpark. I also developed Tableau and Google Looker reports and dashboards for data visualization and analysis. I have multiple certifications in Google Cloud, SQL, and Confluence, and I have won several awards for my performance and innovation. I am passionate about learning new technologies and trends in the data science and AI field, and I enjoy mentoring, working, and learning from some of the best and brightest analytical minds and data scientists in the business.
 
 - **email -** akshay.wsh@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/akshay-akula/)
