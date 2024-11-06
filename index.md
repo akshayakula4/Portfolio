@@ -32,7 +32,8 @@ Currently, as a Data Architect & Data Engineer at Paypal, I oversee the data inf
 
 ### Exploring GCP Components for Data Ingestion & Analytics
 
-- A Library Management System (LMS) is a web-based application designed to effectively manage library resources and services. For frontend development, HTML is utilized for the structure of web pages, CSS for styling and layout, and JavaScript for dynamic and interactive features such as search functionality and user authentication. On the backend, PHP serves as the server-side programming language that creates dynamic web pages, facilitating user authentication, data processing, and database connectivity. The system employs SQL as its database management solution, which manages the relational database containing information on books, borrowers, transactions, and more.
+<!-- (https://docs.google.com/document/d/1Dbr4yqm8TBcNwlgrQwQ5U9O_Um5PUcPjUG4OCIrgbwc/edit?tab=t.0) -->
+- The overall objective is to ingest Yelp batch data from GCS to BigQuery through scheduling jobs in GCP Composer/Airflow using DAG’s and creating a data pipeline in Dataflow. The source data file format we receive to the GCS bucket is json files. We need to parse the json in the Dataflow template and load the data to BQ tables.
 
 
 ## Certifications
