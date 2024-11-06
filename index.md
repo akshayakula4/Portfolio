@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Dhana Lakshmi Nangunuri
+title: Akshay Akula
 ---
 
-# Dhana Lakshmi Nangunuri
+# Akshay Akula
 
 ## About Me
 
