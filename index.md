@@ -24,7 +24,7 @@ Currently, as a Data Architect & Data Engineer at Paypal, I oversee the data inf
 
 ## Projects
 
-### [Exploratory Data Analysis of Car]
+### Exploratory Data Analysis of Car
 
 <!-- (https://www.dropbox.com/) -->
 
