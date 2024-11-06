@@ -49,5 +49,4 @@ Currently, as a Data Architect & Data Engineer at Paypal, I oversee the data inf
 
 ## Certifications
 
-- [Sql and Relational Databases 101 ](https://courses.cognitiveclass.ai/certificates/4b37b68f2359422e9876e95af1a797de)
-- [Java 8 Practical approach](https://www.udemy.com/certificate/UC-f32165eb-82ec-4bb6-a45a-99e925195897/)
+- [Google Cloud Professional Data Engineer](https://www.credential.net/91eb307e-0e3b-4513-9d37-fa17d2c75f36?key=a07bed8045110455891673b06dc8d9787468a34de58c022520160b55139fada9)
