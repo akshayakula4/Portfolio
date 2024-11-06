@@ -39,27 +39,31 @@ Currently, as a Data Architect & Data Engineer at Paypal, I oversee the data inf
 
 - The project aims to develop a data pipeline to ingest batch data from AWS S3 into Snowflake by orchestrating jobs in GCP Composer (Airflow) through Directed Acyclic Graphs (DAGs). This pipeline will automate the process of parsing, loading, and transforming JSON files stored in S3 into Snowflake, ensuring data consistency and efficient storage.
 
-Data Ingestion from S3:
-Source data is received in JSON format and stored in AWS S3 buckets.
-The DAGs in Airflow initiate scheduled jobs to read these JSON files, parsing them within custom Python code.
+ Data Ingestion from S3:
+ Source data is received in JSON format and stored in AWS S3 buckets.
+ The DAGs in Airflow initiate scheduled jobs to read these JSON files, parsing them within custom Python code.
 
-Loading Data into Snowflake:
-Initial Load: JSON data is initially loaded into Snowflake’s RAW tables to retain unprocessed information.
-Data Parsing and Module-based Extraction: Based on predefined criteria (e.g., "Individual" or "Admin" payload types), the parsed JSON files are extracted and organized into respective S3 buckets by modules, using datetime identifiers for partitioning.
+ Loading Data into Snowflake:
+ Initial Load: JSON data is initially loaded into Snowflake’s RAW tables to retain unprocessed information.
+ Data Parsing and Module-based Extraction: Based on predefined criteria (e.g., "Individual" or "Admin" payload types), the parsed JSON files are extracted 
+ and organized into respective S3 buckets by modules, using datetime identifiers for partitioning.
 
-Raw Table Management:
-After each batch processing, RAW tables are refreshed by deleting and recreating them. This ensures that data is not duplicated and is optimized for storage efficiency.JSON files from S3 buckets are reloaded into the Snowflake RAW tables, preparing them for further transformations.
+ Raw Table Management:
+ After each batch processing, RAW tables are refreshed by deleting and recreating them. This ensures that data is not duplicated and is optimized for storage 
+ efficiency.JSON files from S3 buckets are reloaded into the Snowflake RAW tables, preparing them for further transformations.
 
-Transformation and Staging:
-The parsed data is inserted into Stage tables in Snowflake using Insert Overwrite logic. This approach consolidates the data for streamlined processing.
-After staging, the data undergoes further transformations, preparing it for final load into fact tables.
+ Transformation and Staging:
+ The parsed data is inserted into Stage tables in Snowflake using Insert Overwrite logic. This approach consolidates the data for streamlined processing.
+ After staging, the data undergoes further transformations, preparing it for final load into fact tables.
 
-Final Load into Fact Tables:
-A MERGE function is applied for an Upsert operation from Stage tables to Fact tables, utilizing primary key fields to manage data updates accurately.
-This final step ensures the fact tables contain the most current records, with historical data preserved as required.
+ Final Load into Fact Tables:
+ A MERGE function is applied for an Upsert operation from Stage tables to Fact tables, utilizing primary key fields to manage data updates accurately.
+ This final step ensures the fact tables contain the most current records, with historical data preserved as required.
 
-Outcome:
-By implementing this data pipeline, the project achieves a streamlined and automated workflow for loading JSON data into Snowflake, optimized for module-based processing and efficient data management. The pipeline is designed for reliability and scalability, supporting diverse payload types and consistent data integration across systems.
+ Outcome:
+ By implementing this data pipeline, the project achieves a streamlined and automated workflow for loading JSON data into Snowflake, optimized for module- 
+ based processing and efficient data management. The pipeline is designed for reliability and scalability, supporting diverse payload types and consistent 
+ data integration across systems.
 
 
 
