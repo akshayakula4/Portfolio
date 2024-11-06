@@ -26,26 +26,14 @@ Currently, as a Data Architect & Data Engineer at Paypal, I oversee the data inf
 
 ### [Exploratory Data Analysis of Car]
 
-<!-- (https://www.dropbox.com/scl/fi/3dtvuexqvhopdfrbvt7ke/Store_prediction_model.pdf?rlkey=sfg0ewecb7g05okwevy0140wb&dl=0) -->
+<!-- (https://www.dropbox.com/) -->
 
 - I focused on data pre-processing to ensure the dataset was accurately formatted and ready for analysis. I conducted exploratory data analysis (EDA) to investigate the relationships between various car features and their market prices. Utilizing the "Car Features and MSRP" dataset from Kaggle, which encompasses nearly 12,000 car models sold in the USA from 1990 to 2017, I applied descriptive statistics and visualizations to uncover hidden insights and trends in the data, including both new and used market prices. This project enhanced my ability to extract valuable information from complex datasets and informed decision-making processes in the automotive domain.
 
-### Library management system
+### Exploring GCP Components for Data Ingestion & Analytics
 
 - A Library Management System (LMS) is a web-based application designed to effectively manage library resources and services. For frontend development, HTML is utilized for the structure of web pages, CSS for styling and layout, and JavaScript for dynamic and interactive features such as search functionality and user authentication. On the backend, PHP serves as the server-side programming language that creates dynamic web pages, facilitating user authentication, data processing, and database connectivity. The system employs SQL as its database management solution, which manages the relational database containing information on books, borrowers, transactions, and more.
 
-### Exchequer
-
-- Contributed to software development in an Agile team, implementing features in Java and C/C++.
-- Performed unit and integration testing to ensure feature reliability and collaborated in code reviews.
-- Used Git for version control and collaborated across multi-site teams to troubleshoot issues and enhance system functionality.
-
-## Publications
-
-- A Platform-Agnostic Framework for Automatically Identifying Performance Issues Reports with Heuristic Linguistic Patterns
-- Role: Data Validator
-- Description: Collaborated with a professor on a paper published on IEEE Xplore. Assisted in validating data to support the development of a framework for automatically identifying performance issues in reports using heuristic linguistic patterns.
-- [Check it out!](https://ieeexplore.ieee.org/abstract/document/10504708)
 
 ## Certifications
 
