@@ -10,7 +10,7 @@ title: Akshay Akula
 Computer Science graduate student at the University of Central Missouri, specializing in data engineering and full-stack development. With 1.5 years of experience as an Associate Software Engineer, I bring expertise in Java, Python, SQL, and web technologies.
 
 - **email -** akshay.wsh@gmail.com
-- [LinkedIn][((https://www.linkedin.com/in/akshay-akula/))]
+- [LinkedIn](https://www.linkedin.com/in/akshay-akula/)
 
 ## Professional Experience
 
