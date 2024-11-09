@@ -25,7 +25,7 @@ Currently, as a Data Architect & Data Engineer at Paypal, I oversee the data inf
 ## Projects
 
 ### Exploratory Data Analysis of Car
-(https://colab.research.google.com/drive/1wc9mMuiwFPf3zAxoShAlFAmzQyMfLeOu?authuser=2#scrollTo=VwzYCSrgb6sv)
+<!-- (https://colab.research.google.com/drive/1wc9mMuiwFPf3zAxoShAlFAmzQyMfLeOu?authuser=2#scrollTo=VwzYCSrgb6sv) -->
 
 - I focused on data pre-processing to ensure the dataset was accurately formatted and ready for analysis. I conducted exploratory data analysis (EDA) to investigate the relationships between various car features and their market prices. Utilizing the "Car Features and MSRP" dataset from Kaggle, which encompasses nearly 12,000 car models sold in the USA from 1990 to 2017, I applied descriptive statistics and visualizations to uncover hidden insights and trends in the data, including both new and used market prices. This project enhanced my ability to extract valuable information from complex datasets and informed decision-making processes in the automotive domain.
 
